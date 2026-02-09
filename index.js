@@ -25,7 +25,7 @@ function generateHeart() {
   const heart = document.createElement("img");
   let lives = 4;
   heart.classList.add("heart");
-  heart.src = "/res/pixelHeart.png"; // Path to your heart image
+  heart.src = "./res/pixelHeart.png"; // Path to your heart image
   heart.addEventListener("click", clickHeart);
   let vGeneratedRandom = generateRandomNumber();
   let specialNumbers = [21, 24, 25, 26];
