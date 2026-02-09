@@ -74,7 +74,7 @@ function clickHeart(event) {
       pointsCounter++;
       counterContainer.innerText = pointsCounter;
       this.remove();
-      if (pointsCounter === 2) {
+      if (pointsCounter === 10) {
         // console.log("You just won");
         // clearInterval(heartGenerator);
 
